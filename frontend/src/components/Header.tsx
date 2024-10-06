@@ -11,7 +11,7 @@ const Header = () => {
     <div className="py-4 px-2 fixed top-0 right-0 left-0 text-base leading-7 font-normal text-white backdrop-blur-sm z-50 bg-purple-500/70" style={{ fontFamily: "'Quicksand', sans-serif" }}>
       <div className="container mx-auto flex justify-between">
         <span className="text-3xl text-white font-bold tracking-tight">
-          <Link to="/">My App</Link>
+          <Link to="/">RoomRover</Link>
         </span>
         <span className="flex space-x-2">
           {isLoggedIn ? (
